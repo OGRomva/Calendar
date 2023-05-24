@@ -1,0 +1,119 @@
+
+
+@font-face {
+    font-family: "Hlobus";
+    src: url('Hlobus.ttf');
+}
+
+
+.text {
+    -fx-font-family: Hlobus;
+    -fx-font-size: 20;
+}
+
+#mainPane {
+    -fx-background-image: url('back.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: stretch;
+}
+
+#yearsComboBox {
+    -fx-min-width: 70;
+    -fx-font-size: 15px;
+}
+
+#monthsComboBox {
+    -fx-min-width: 130;
+}
+
+#newsLabel {
+    -fx-background-color: #d6a11a;
+    -fx-background-radius: 10;
+}
+
+#todayLabel {
+    -fx-text-fill: red;
+}
+
+.weekDayLabel {
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+}
+
+#calendarGrid {
+    -fx-background-color: #694c3c;
+    -fx-font-size: 30px;
+    -fx-text-fill: white;
+    -fx-opacity: 0.9;
+}
+
+#textLabel {
+    -fx-background-image: url('news.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: stretch;
+    -fx-background-position: center;
+    -fx-font-size: 20px;
+    -fx-wrap-text: true;
+    -fx-max-width: 480;
+    -fx-padding: 70px;
+    -fx-text-fill: white;
+    -fx-font-weight: 900;
+}
+
+#noteArea {
+    -fx-background-color: #d6a11a;
+    -fx-opacity: 0.7;
+    -fx-stroke: white;
+    -fx-stroke-width: 2px;
+    -fx-background-radius: 10;
+    -fx-border-color: #d6a11a;
+    -fx-border-radius: 10;
+    -fx-font-family: Hlobus;
+    -fx-font-size: 20px;
+    -fx-rad
+}
+
+/*#noteDate {*/
+/*    -fx-background-color: #d6a11a;*/
+/*    -fx-opacity: 0.9;*/
+/*    -fx-background-radius: 10;*/
+/*    -fx-border-color: #d6a11a;*/
+/*    -fx-border-radius: 10;*/
+/*}*/
+
+#noteLabelBox {
+    -fx-alignment: center;
+    -fx-background-color: #d6a11a;
+    -fx-opacity: 0.9;
+    -fx-background-radius: 10;
+    -fx-border-color: #d6a11a;
+    -fx-border-radius: 10;
+    -fx-min-width: 1000;
+}
+
+.dayLabel {
+    -fx-text-fill: #f8e69e;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+.dayBox {
+    -fx-alignment: CENTER;
+    -fx-background-radius: 20px;
+}
+
+.button {
+    -fx-font-size: 20px;
+    -fx-background-color: #d6a11a;
+    -fx-background-radius: 10;
+}
+
+.label {
+    -fx-font-size: 20px;
+}
+
+.combo-box {
+    -fx-background-color: #d6a11a;
+    -fx-background-radius: 10;
+    -fx-min-height: 41;
+}
